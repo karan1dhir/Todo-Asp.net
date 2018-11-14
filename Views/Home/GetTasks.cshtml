@@ -1,0 +1,14 @@
+﻿@model IEnumerable<TodoListProject.Models.Task>
+@{
+    ViewBag.Title = "GetTasks";
+}
+@using TodoListProject.Models
+<div style="font-family:Arial">
+    <h2>All-Tasks</h2>
+    <ul>
+        @foreach (Task task in Model)
+        {
+            <li>@task.value</li>
+        }
+    </ul>
+</div>

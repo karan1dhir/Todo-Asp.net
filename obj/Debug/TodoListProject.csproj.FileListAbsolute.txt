@@ -89,3 +89,7 @@ C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\obj\Debug\TodoLi
 C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\obj\Debug\TodoListProject.csproj.CopyComplete
 C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\obj\Debug\TodoListProject.dll
 C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\obj\Debug\TodoListProject.pdb
+C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\EntityFramework.dll
+C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\EntityFramework.SqlServer.dll
+C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\EntityFramework.xml
+C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\EntityFramework.SqlServer.xml
