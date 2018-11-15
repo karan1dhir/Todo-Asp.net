@@ -13,7 +13,7 @@ namespace TodoListProject.Models
     {
       public TaskContext():base("name=TaskDbConnectionString")
        {
-
+                
          Database.SetInitializer<TaskContext>(new DropCreateDatabaseIfModelChanges<TaskContext>());
 
         }

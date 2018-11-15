@@ -9,14 +9,8 @@ namespace TodoListProject.Controllers
 {
     public class HomeController : Controller
     {
-      public ActionResult Index()
+        public ActionResult Index()
         {
-            using (var taskcontext = new TaskContext())
-            {
-                var taskvalue = new Task() { value = "task1" };
-                taskcontext.Tasks.Add(taskvalue);
-                taskcontext.SaveChanges();
-            }
             return View();
         }
         public ActionResult GetTasks()
@@ -24,9 +18,39 @@ namespace TodoListProject.Controllers
             List<Task> taskList = null;
             using (var taskcontext = new TaskContext())
             {
-               taskList = taskcontext.Tasks.ToList();
+                taskList = taskcontext.Tasks.ToList();
             }
             return View(taskList);
+        }
+        [HttpPost]
+        public ActionResult AddTask(string todoValue)
+        {
+           
+            using (var taskcontext = new TaskContext())
+            {
+                var taskvalue = new Task() { value = todoValue };
+                taskcontext.Tasks.Add(taskvalue);
+                taskcontext.SaveChanges();
+            }
+            return RedirectToAction("GetTasks");
+        }
+        [HttpPost]
+        public ActionResult DeleteTask(int id)
+        {
+            using (var taskcontext = new TaskContext())
+            {
+                var deleteTask = taskcontext.Tasks.Find(id);
+                taskcontext.Tasks.Remove(deleteTask);
+                taskcontext.SaveChanges();
+            }
+            return RedirectToAction("GetTasks");
+        }
+        public ActionResult EditTask(int id)
+        {
+             
+            
+
+            return View();
         }
     }
 }

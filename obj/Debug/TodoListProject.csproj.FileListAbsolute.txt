@@ -1,3 +1,4 @@
+C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\obj\Debug\TodoListProject.csproj.CoreCompileInputs.cache
 C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\ApplicationInsights.config
 C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\TodoListProject.dll.config
 C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\TodoListProject.dll
@@ -49,6 +50,8 @@ C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\roslyn\vbc.r
 C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\roslyn\VBCSCompiler.exe
 C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\Antlr3.Runtime.dll
+C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\EntityFramework.dll
+C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\EntityFramework.SqlServer.dll
 C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\Microsoft.AI.Agent.Intercept.dll
 C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\Microsoft.AI.DependencyCollector.dll
 C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\Microsoft.AI.PerfCounterCollector.dll
@@ -69,6 +72,8 @@ C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\System.Web.W
 C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\System.Web.WebPages.dll
 C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\System.Web.WebPages.Razor.dll
 C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\WebGrease.dll
+C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\EntityFramework.xml
+C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\EntityFramework.SqlServer.xml
 C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\System.Web.Helpers.xml
 C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\System.Web.Mvc.xml
 C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\System.Web.Optimization.xml
@@ -84,12 +89,7 @@ C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\Microsoft.AI
 C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\Microsoft.AI.Web.xml
 C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\obj\Debug\TodoListProject.csprojAssemblyReference.cache
-C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\obj\Debug\TodoListProject.csproj.CoreCompileInputs.cache
 C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\obj\Debug\TodoListProject.csproj.CopyComplete
 C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\obj\Debug\TodoListProject.dll
 C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\obj\Debug\TodoListProject.pdb
-C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\EntityFramework.dll
-C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\EntityFramework.SqlServer.dll
-C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\EntityFramework.xml
-C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\bin\EntityFramework.SqlServer.xml
+C:\Users\karandhir\source\repos\TodoListProject\TodoListProject\obj\Debug\TodoListProject.csprojAssemblyReference.cache

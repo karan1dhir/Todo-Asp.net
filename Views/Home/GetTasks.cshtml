@@ -5,10 +5,39 @@
 @using TodoListProject.Models
 <div style="font-family:Arial">
     <h2>All-Tasks</h2>
-    <ul>
+    <table border="1" style="width:100%" class="table">
+        <thead>
+            <tr>
+                <th scope="col">
+                    Task Value
+                </th>
+                <th scope="col">
+                    Edit Operation
+                </th>
+                <th scope="col">
+                    Delete Operation
+                </th>
+            </tr>
+        </thead>
         @foreach (Task task in Model)
         {
-            <li>@task.value</li>
+            <tr>
+                <td hidden>@task.taskId</td>
+                <td>@task.value</td>
+                <td>
+                    @using (Html.BeginForm("EditTask", "Home", new { id = task.taskId }))
+                    {
+                        <input type="submit" value="Edit" class="btn btn-success" id="btnEdit" />
+                    }
+                </td>
+                <td>
+                    @using (Html.BeginForm("DeleteTask", "Home", new { id = task.taskId }))
+                    {
+                        <input type="submit" value="Delete" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete task with ID= @task.taskId');" />
+                    }
+                </td>
+            </tr>
         }
-    </ul>
+    </table>
+    @Html.ActionLink("Add Task Page", "Index", "Home")
 </div>

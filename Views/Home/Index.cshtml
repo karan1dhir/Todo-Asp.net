@@ -4,9 +4,14 @@
 }
 <div>
     <h2>TodoList</h2>
-    <div class="todo-name">
-        Name: <input type="text" />
-    </div><br/>
-    <button>Add Task</button>
+    <form action="AddTask" method="post">
+        <div class="form-group" >
+            <label for="exampleInputTodo" >Email address</label>
+            <input type="text" class="form-control" id="exampleInputTodo" placeholder="Enter value of task " name="todoValue">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    @Html.ActionLink("Show All Task", "GetTasks", "Home")
 </div>
 
+ 
