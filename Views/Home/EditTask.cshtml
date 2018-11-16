@@ -1,0 +1,16 @@
+﻿@model TodoListProject.Models.Task
+@{
+    ViewBag.Title = "EditTask";
+}
+@using TodoListProject.Models
+<h2>EditTask</h2>
+
+<form action="/Home/EditTaskHelper" method="POST">
+    <div class="form-group">
+        <label for="exampleInputTodo">Enter the updated Value</label>
+        <input type="text" class="form-control" id="exampleInputTodo" placeholder="Enter the updated task value" value=@Model.value name="editValue">
+        <input type="text"  id="example" value="@Model.taskId" name="editId" hidden/>
+    </div>
+    <button type="submit" class="btn btn-success">Save Changes</button>
+</form>
+
